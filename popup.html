@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>Event Finder</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/materialize.min.js"></script>
+  <script src="assets/js/popup.js"></script>
+</head>
+<body>
+  <div class="row">
+    <h1 id="title">Search Events Near You:</h1>
+    <div id="results"></div>
+    <div id="errors"></div>
+    <!-- Eventbrite Event Search Form -->
+    <form id="eventSearch" class="col s12">
+      <div class="row">
+        <div class="input-field col s8">
+          <input id="address" type="text" class="validate">
+          <label for="address">Address</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="range" type="text" class="validate">
+          <label for="range">Range (in miles)</label>
+        </div>
+        <div class="input-field col s5">
+          <input id="city" type="text" class="validate">
+          <label for="city">City</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="region" type="text" class="validate">
+          <label for="region">Region</label>
+        </div>
+        <div class="input-field col s3">
+          <input id="country" type="text" class="validate">
+          <label for="country">Country</label>
+        </div>
+        <div id="weekend_events_container" class="input-field col s12">
+          <input id="weekend_events"  type="checkbox" />
+          <label for="weekend_events">Filter by events happening next weekend</label>
+        </div>
+        <div id="submit_container">
+          <button id="submit" class="btn waves-effect waves-light" type="submit">Submit
+            <i class="mdi-content-send right"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div id="clear_container" class="row">
+      <button id="clear" style="display: none;" class="btn waves-effect waves-light">Clear</button>
+    </div>
+    <img id="spinner" style="display: none;" src="assets/img/hourglass.gif" />
+  </div>
+  <!-- Event List Container -->
+  <div id="events"></div>
+</body>
+</html>

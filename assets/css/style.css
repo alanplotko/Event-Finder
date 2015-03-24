@@ -1,0 +1,115 @@
+/*----------------
+   Popup Body
+------------------*/
+
+body {
+	padding: 10px 0 0 0;
+	width: 600px;
+	margin: 0;
+	height: 245px;
+}
+
+/*---------------------
+   Event Search Form
+-----------------------*/
+
+h1#title {
+	font-size: 28px;
+	line-height: 2rem;
+	margin: 0 0 15px 0;
+	color: #595959;
+	padding: 5px 0 15px 0;
+	border-bottom: solid 1px #595959;
+	text-align: center;
+}
+
+input {
+	font-size: 18px!important;
+}
+
+.input-field label {
+	font-size: 16px;
+}
+
+/* Loading image while fetching data from API */
+#spinner {
+	display: block;
+	margin: 0 auto;
+}
+
+/*---------------------
+   Errors & Results
+-----------------------*/
+
+div#errors, div#results {
+	display: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin: 20px;
+	border: 1px solid #000;
+	padding: 8px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+
+div#errors 	{ background-color: #990000; }
+div#results { background-color: #998100; }
+
+/*-----------------------------
+   Form Buttons & Containers
+-------------------------------*/
+
+div#clear_container {
+	margin: 0;
+	text-align: center;
+}
+
+div#submit_container {
+	text-align: center;
+}
+
+#weekend_events_container {
+	margin: 0 0 10px 0!important;
+}
+
+#submit, #clear {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+#submit { margin: 20px 0 0 0; }
+#clear 	{ margin: 10px 0 0 0; }
+
+/*----------------
+   Event List
+------------------*/
+
+#events ul {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 10px 30px 10px 40px;
+}
+
+#events ul li {
+	list-style-type: disc;
+	margin-bottom: 3px;
+}
+
+/*---------------------------
+   Modify Materialize.css
+-----------------------------*/
+
+.row {
+	margin-bottom: 10px;
+}
+
+span.new.badge {
+	float: left;
+	margin: 3px 30px 0 -17px;
+}
+
+span.badge.new:after {
+	content: " upcoming";
+}
