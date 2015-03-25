@@ -6,11 +6,11 @@ $(function() {
   $("#eventSearch").submit(function(e) {
     // Build query from form fields
     var query = {
-      "address": $("#address").val(),
-      "range": $("#range").val(),
-      "city": $("#city").val(),
-      "region": $("#region").val(),
-      "country": $("#country").val(),
+      "address": encodeURIComponent($("#address").val()),
+      "range": encodeURIComponent($("#range").val()),
+      "city": encodeURIComponent($("#city").val()),
+      "region": encodeURIComponent($("#region").val()),
+      "country": encodeURIComponent($("#country").val()),
     };
 
     // Form status for sending to Eventbrite API
