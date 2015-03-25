@@ -19,5 +19,6 @@
   ],
   "background": { "scripts": ["assets/js/jquery.min.js", "assets/js/background.js"], "pages": ["popup.html"] },
   "short_name": "Event Finder",
+  "update_url": "https://raw.githubusercontent.com/alanplotko/Event-Finder/master/updates.xml",
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
