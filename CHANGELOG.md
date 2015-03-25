@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file. This projec
 - [Bugfix] Fix bad requests to Eventbrite API
 
 ## v1.0.0 / 2015-03-24
-- [Release] First stable release of Event Finder
+- First stable release of Event Finder
 - [Feature] Notifications alert user when search is done if popup is exited
 - [Feature] Filter events by weekend
 - [Feature] Indicate whether events are happening soon based on the current and event dates (currently 2 days apart)
