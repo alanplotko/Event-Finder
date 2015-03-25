@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Planned] 1.1.0 / Unreleased
+## [Planned] v1.1.0 / Unreleased
 - Clearly convey requirement of range, if submitting address
   - Allow for choice between mi. and km.
 - Reduce number of chrome.storage requests and clean up JavaScript code
@@ -12,11 +12,11 @@ All notable changes to this project will be documented in this file. This projec
 - Further explore labeling events
 - Show "upcoming badge" if event is within 1 week instead of 2 days
 
-## 1.0.1 / 2015-03-25
-- [BUGFIX] Fix bad requests to Eventbrite API
+## v1.0.1 / 2015-03-25
+- [Bugfix] Fix bad requests to Eventbrite API
 
-## 1.0.0 / 2015-03-24
-- [RELEASE] First stable release of Event Finder
-- [FEATURE] Notifications alert user when search is done if popup is exited
-- [FEATURE] Filter events by weekend
-- [ENHANCEMENT] Indicate whether events are happening soon based on the current and event dates (currently 2 days apart)
+## v1.0.0 / 2015-03-24
+- [Release] First stable release of Event Finder
+- [Feature] Notifications alert user when search is done if popup is exited
+- [Feature] Filter events by weekend
+- [Feature] Indicate whether events are happening soon based on the current and event dates (currently 2 days apart)
