@@ -18,14 +18,12 @@ Address and range must be submitted together - this is a requirement for the Eve
 
 Fork it and submit a pull request! =)
 
-## Quick Changelog
+## Changelog
 
-Check [CHANGELOG.md](https://github.com/alanplotko/Event-Finder/blob/master/CHANGELOG.md) (and commits, if you'd like) for full details! I'll use this format: "vMAJOR.MINOR.PATCH [Purpose]: main point".
+Check out [CHANGELOG.md](https://github.com/alanplotko/Event-Finder/blob/master/CHANGELOG.md) (and commits, if you'd like) for full details! I'll use this format: "vMAJOR.MINOR.PATCH [Purpose]: main point". Some examples for "[Purpose]": stable for a new stable release, bugfix for any patches, feature for a new feature, and alpha/beta for bigger features and their respective stages.
 
-Some examples for "[Purpose]": stable for a new stable release, bugfix for any patches, feature for a new feature, and alpha/beta for bigger features and their respective stages.
-
-- v1.0.1 [Bugfix]: fixes bad requests to Eventbrite API
-- v1.0.0 [Stable]: initial release
+- v1.0.1 [BUGFIX]: fix bad requests to Eventbrite API
+- v1.0.0 [STABLE RELEASE]: initial release on GitHub and Chrome Web Store
 
 ## License
 
