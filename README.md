@@ -18,11 +18,15 @@ Input your location information and submit the form!
 
 The address and range must be submitted together - this is a requirement for the Eventbrite Search API. I plan on making that more apparent (aside from just reporting an error message after the first failed attempt). You can mix and match when choosing what information to provide and then submit. There are notifications if you exit out of the extension popup to let you know when the search is complete.
 
-## Images & Video
+## Screenshots & Demo
 
+### Demo
 You can view the Event Finder Demo [here](https://www.youtube.com/watch?v=5_Wk5bnt70E)!
 
+### Screenshots
+#### Event Finder - Form
 ![Screenshot 1](http://oi61.tinypic.com/10sbzau.jpg "Event Finder Form")
+#### Event Finder - Search Results
 ![Screenshot 2](http://oi58.tinypic.com/mh52t4.jpg "Event Finder Search Results")
 
 ## Contributing
