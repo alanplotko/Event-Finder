@@ -1,6 +1,6 @@
-![Banner Image](http://oi58.tinypic.com/23movhw.jpg "Event Finder Banner")
+![Event Finder Banner](http://oi58.tinypic.com/23movhw.jpg)
 
-# About Event Finder
+## About Event Finder
 
 Event Finder is a simple Chrome Extension that enables users to search for events happening in their area.
 
@@ -25,9 +25,9 @@ You can view the Event Finder Demo [here](https://www.youtube.com/watch?v=5_Wk5b
 
 ### Screenshots
 #### Event Finder - Form
-![Screenshot 1](http://oi61.tinypic.com/10sbzau.jpg "Event Finder Form")
+![Event Finder Form](http://oi61.tinypic.com/10sbzau.jpg)
 #### Event Finder - Search Results
-![Screenshot 2](http://oi58.tinypic.com/mh52t4.jpg "Event Finder Search Results")
+![Event Finder Search Results](http://oi58.tinypic.com/mh52t4.jpg)
 
 ## Contributing
 
