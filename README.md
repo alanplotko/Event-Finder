@@ -6,7 +6,7 @@ Event Finder is a simple Chrome Extension that enables users to search for event
 
 Event Finder allows you to provide specifics for your location to find events happening near you. There is also an option to search for events happening in the next weekend. Event Finder uses the Eventbrite API as its source of data and indicates upcoming events.
 
-You can view the ChallengePost submission [here](http://challengepost.com/software/event-finder). You can view the Event Finder Demo [here](https://www.youtube.com/watch?v=5_Wk5bnt70E)!
+You can view the DevPost submission [here](http://devpost.com/software/event-finder). You can view the Event Finder Demo [here](https://www.youtube.com/watch?v=5_Wk5bnt70E)!
 
 ## Installation
 
